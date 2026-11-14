@@ -15,7 +15,7 @@
 1 . Clone this repo to anywhere on your computer.
 
 ```bash
-git clone https://github.com/jesperorb/json-server-heroku.git
+git clone https://github.com/rymdar/json-server-heroku.git
 ```
 
 2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git. 
@@ -183,7 +183,7 @@ az webapp deployment source config-local-git -n NameOfApp -g NameOfResourceGroup
 6 . From the command in step 5 you should get a **url** in return. Copy this url and add it as a remote to your local git project, for example:
 
 ```bash
-git remote add azure https://jesperorb@deploy-testing.scm.azurewebsites.net/deploy-testing.git
+git remote add azure https://rymdar@deploy-testing.scm.azurewebsites.net/deploy-testing.git
 ```
 
 7 . Now you should be able to push your app:
